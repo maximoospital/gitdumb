@@ -1,6 +1,7 @@
 # [![Logo](https://i.imgur.com/ljo8rvl.png)](https://github.com/maximoospital/gitdumb)
 
 ### A download button for Github repositories.
+[<img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" height="50" alt='Available in the Chrome Web Store'>](https://chromewebstore.google.com/detail/gitdumb/jbocmjoolopgfbkojbefmpgglajooffb)
 
 ## Screenshots
 
