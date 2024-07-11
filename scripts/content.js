@@ -14,11 +14,13 @@ if(url === urlRoot || url === urlRoot + '/') {
     const firstChildFirstChild = firstChild.firstElementChild;
     const firstChildFirstChildsFirstChild = firstChildFirstChild.firstElementChild;
     const firstChildFirstChildsFirstChildsFirstChild = firstChildFirstChildsFirstChild.firstElementChild;
+    const summary = document.createElement('summary');
     const button = document.createElement('a');
     button.classList.add('gd_downloadbutton');
     button.href = urlRoot + '/releases/latest';
     button.textContent = 'Download';
-    firstChildFirstChildsFirstChildsFirstChild.insertAdjacentElement('afterbegin', button)
+    summary.appendChild(button);
+    firstChildFirstChildsFirstChildsFirstChild.insertAdjacentElement('afterbegin', summary)
     const style = document.createElement('style');
     style.textContent = `
       .gd_downloadbutton {
